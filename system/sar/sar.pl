@@ -119,8 +119,7 @@ foreach my $group ( keys %sar ) {
 
         my $cmd =qq{$gmetric_exec -t float -n "$type" -v $value -g "$group"};
         ### $cmd
-#        my @ret = `$cmd`;
-        my @ret;
+        my @ret = `$cmd`;
         if ( $? >> 8 ) {
             print "@ret";    
         }
