@@ -8,11 +8,11 @@ Author: Nianhua.Wei
 
 Description:
 
-Calculate network bandwidth by each interface
+Collect sar statistic
 
 Language: PERL
 
-Category: Network
+Category: SYSTEM
 
-Dependencies: gmetric 3.5.0, Centos GNU/Linux
+Dependencies: gmetric 3.5.0
 
